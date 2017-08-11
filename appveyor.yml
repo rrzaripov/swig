@@ -101,6 +101,6 @@ skip_tags: true
 #  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
 
 artifacts:
-  - path: 'swig.exe'
-      name: swig_windows
+  - path: swig.exe
+    name: swig_windows
 
